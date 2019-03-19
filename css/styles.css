@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy');
+/* HEADER Section */
+
+.logo, .logo2 {
+    width:90px;
+}
+
+header h1{
+    color:#c9c983;
+    font-family: 'Satisfy', cursive;
+    margin-top: 20px;
+}
+
+
+.product{
+    background-color: #eeddcd;
+    border-radius: 5%;
+    border: 5px solid rgb(252, 252, 252);
+    border-top: 5px solid rgb(252, 252, 252);
+}
+
+.img-responsive {
+    padding-top: 10px;
+}
+  
+  .jumbotron {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: url(../img/hero.jpg);
+    background-size: cover;
+    height: 450px;
+    align-content: bottom;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20&;
+    
+  }
+
+  @supports(object-fit: cover){
+    .container img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+
+  h2{
+    color:#c9c983;
+  }
+
+.nav-pills>li.active>a{
+    color: grey;
+    background-color: #eeddcd;
+}
+
+.nav-pills>li.active>a:hover,
+.product button:hover,
+footer a:hover {
+    background-color: #edf1f4;
+    color:  grey;
+    border: 2px solid brown;
+}
+   
+nav li{
+    font-size: 15px;
+    color: black;
+}
+
+
+li{
+
+    background-color: #eeddcd;
+    border-radius: 5%;
+    border: 5px solid rgb(252, 252, 252); 
+    color: black;
+    /* border: 5px brown;     */
+}
+
+
+.footer {
+    
+    margin: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 120px;
+    background-color: #eeddcd;
+    background-size: cover;
+    background-position: center;
+   }
+
+.footer h2 {
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+}
+
+.footer-logo {
+margin-right: 100px;
+margin-top: 20px;
+}
+
+
+.vr {
+    border-left: 1px solid rgb(43, 42, 42) !important;
+    height: 80px;
+    margin: 20px;
+    padding: 20px;
+ }
+     
+ .social {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+ }
+
